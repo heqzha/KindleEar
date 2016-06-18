@@ -58,7 +58,7 @@ class tech(BaseFeedBook):
         ('Matrix67', 'http://www.matrix67.com/blog/feed'),
         ]
     
-        def url4forwarder(self, url):
+    def url4forwarder(self, url):
         ' 生成经过转发器的URL '
         return SHARE_FUCK_GFW_SRV % urllib.quote(url)
 
