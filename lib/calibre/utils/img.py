@@ -6,7 +6,8 @@ __copyright__ = '2010, Kovid Goyal <kovid@kovidgoyal.net>'
 __docformat__ = 'restructuredtext en'
 
 import os
-from PIL import Image
+#from PIL import Image
+import Image
 
 from calibre.utils.imghdr import what
 from StringIO import StringIO
